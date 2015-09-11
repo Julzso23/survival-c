@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Engine">
       <UniqueIdentifier>{1ef9657b-96f0-4c2b-afd4-bd52a1b097cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{702fcd32-c1be-4091-9102-2983a5319ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{8e368387-f810-4823-8a51-9f56d3c9f7e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -36,6 +42,9 @@
     <ClInclude Include="SurvivalGame.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Player\Player.hpp">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -52,6 +61,9 @@
     </ClCompile>
     <ClCompile Include="SurvivalGame.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
