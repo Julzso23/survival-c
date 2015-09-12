@@ -1,7 +1,7 @@
 #include <stdafx.h>
 #include <Player\Inventory.hpp>
 
-Inventory::Inventory(int size)
+Inventory::Inventory(unsigned int size)
     : maxSize(size)
 {
 }
@@ -21,13 +21,18 @@ bool Inventory::addItem(ItemBase& item)
         return false;
 }
 
-bool Inventory::removeItem(int id)
+bool Inventory::removeItem(unsigned int id)
 {
-    if ((items.size > id) && (id >= 0))
+    if ((items.size() > id) && (id >= 0))
+    {
         items.erase(items.begin() + id);
+        return true;
+    }
+    else
+        return false;
 }
 
-ItemBase& Inventory::getItem(int id)
+ItemBase& Inventory::getItem(unsigned int id)
 {
     return items.at(id);
 }
