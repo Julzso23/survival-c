@@ -4,8 +4,14 @@
 Player::Player()
     : inventory(64)
 {
+    inventory.addItem(ItemBase());
 }
 
 Player::~Player()
 {
+}
+
+Inventory& Player::getInventory()
+{
+    return inventory;
 }

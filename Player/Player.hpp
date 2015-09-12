@@ -11,4 +11,6 @@ private:
 public:
     Player();
     ~Player();
+
+    Inventory& getInventory();
 };
