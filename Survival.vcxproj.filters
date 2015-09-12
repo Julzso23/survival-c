@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Player">
       <UniqueIdentifier>{8e368387-f810-4823-8a51-9f56d3c9f7e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{5951dc49-1639-418a-aea5-c6701da0a21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{751491ea-7375-4f8b-b705-b866895bea66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -45,6 +51,12 @@
     <ClInclude Include="Player\Player.hpp">
       <Filter>Header Files\Player</Filter>
     </ClInclude>
+    <ClInclude Include="Player\Inventory.hpp">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\ItemBase.hpp">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -64,6 +76,12 @@
     </ClCompile>
     <ClCompile Include="Player\Player.cpp">
       <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Inventory.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\ItemBase.cpp">
+      <Filter>Source Files\Items</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

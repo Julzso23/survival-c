@@ -151,6 +151,8 @@
   <ItemGroup>
     <ClInclude Include="Engine\AppBase.hpp" />
     <ClInclude Include="Engine\Window.hpp" />
+    <ClInclude Include="Items\ItemBase.hpp" />
+    <ClInclude Include="Player\Inventory.hpp" />
     <ClInclude Include="Player\Player.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="SurvivalGame.hpp" />
@@ -159,6 +161,8 @@
   <ItemGroup>
     <ClCompile Include="Engine\AppBase.cpp" />
     <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Items\ItemBase.cpp" />
+    <ClCompile Include="Player\Inventory.cpp" />
     <ClCompile Include="Player\Player.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
