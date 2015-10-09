@@ -4,14 +4,14 @@
 Player::Player()
     : inventory(64)
 {
-    inventory.addItem(ItemBase());
+    fputs(inventory.addItem(ItemBase()) ? "Added item to inventory." : "Failed to add item to inventory.", stdout);
 }
 
 Player::~Player()
 {
 }
 
-Inventory& Player::getInventory()
+Inventory* Player::getInventory()
 {
-    return inventory;
+    return &inventory;
 }

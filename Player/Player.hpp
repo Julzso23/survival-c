@@ -12,5 +12,5 @@ public:
     Player();
     ~Player();
 
-    Inventory& getInventory();
+    Inventory* getInventory();
 };
