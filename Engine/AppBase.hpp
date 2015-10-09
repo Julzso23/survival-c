@@ -14,7 +14,7 @@ namespace JE
 
         virtual void initialise(Window& window);
         virtual void update(float dt);
-        virtual void draw(const Window& window) const;
+        virtual void draw(Window& window) const;
 
         virtual void mouseMoved(sf::Vector2i position);
         virtual void mousePressed(sf::Mouse::Button button, sf::Vector2i position);

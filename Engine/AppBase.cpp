@@ -9,7 +9,7 @@ namespace JE
 
     void AppBase::initialise(Window& window) {}
     void AppBase::update(float dt) {}
-    void AppBase::draw(const Window & window) const {}
+    void AppBase::draw(Window& window) const {}
     void AppBase::mouseMoved(sf::Vector2i position) {}
     void AppBase::mousePressed(sf::Mouse::Button button, sf::Vector2i position) {}
     void AppBase::mouseReleased(sf::Mouse::Button button, sf::Vector2i position) {}
