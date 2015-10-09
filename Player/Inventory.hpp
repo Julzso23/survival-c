@@ -14,5 +14,5 @@ public:
 
     bool addItem(ItemBase& item);
     bool removeItem(unsigned int id);
-    ItemBase& getItem(unsigned int id);
+    ItemBase* getItem(unsigned int id);
 };

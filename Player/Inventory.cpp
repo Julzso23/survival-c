@@ -32,7 +32,7 @@ bool Inventory::removeItem(unsigned int id)
         return false;
 }
 
-ItemBase& Inventory::getItem(unsigned int id)
+ItemBase* Inventory::getItem(unsigned int id)
 {
-    return items.at(id);
+    return &items.at(id);
 }
